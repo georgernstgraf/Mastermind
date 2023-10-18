@@ -1,17 +1,17 @@
-"use strict"
+"use strict";
 
-var obj
-var main
+var obj;
+var main;
 
 // Hilfsfunktion, damit ich dann mit dem obj in der Konsole herumspielen kann
 
 // all - purpose console log (alle argumente)
 function cl() {
-    console.log("CL - last is in obj")
+    console.log("CL - last is in obj");
     for (let i = 0; i < arguments.length; i++) {
         console.log(arguments[i]);
     }
-    obj = arguments[arguments.length - 1]
+    obj = arguments[arguments.length - 1];
 }
 
 /* 
@@ -25,6 +25,7 @@ function init() {
     main = new Main(
         document.getElementById("master"),
         document.getElementById("guesses"),
-        document.getElementById("notify"))
-    main.newGame()
+        document.getElementById("notify")
+    );
+    main.newGame();
 }

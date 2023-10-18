@@ -55,7 +55,6 @@ button {
 .neuSpiel {
     grid-row: 1/3;
     grid-column: 1/4;
-
 }
 
 .visible {
@@ -89,7 +88,6 @@ button {
 .s4 {
     grid-row: 1/3;
     grid-column: 10/12;
-
 }
 
 .b1 {
@@ -119,7 +117,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 h1,
